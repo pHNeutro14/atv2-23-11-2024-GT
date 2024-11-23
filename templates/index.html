@@ -1,0 +1,32 @@
+{% extends "modelo.html" %}
+{% block conteudo %}
+<main>
+    <h1>Loja de Eletrônicos</h1>
+    <div class="wrapper">
+        <div class="produto">
+            <img src="../static/img/kitarduino.png">
+            <p>Kit Arduino</p>
+            <p>R$350,00</p>
+            <a href="{{ url_for('arduino') }}">Clique Aqui!!</a>
+        </div>
+        <div class="produto">
+            <img src="../static/img/kit raspberry.jpg">
+            <p>Kit Raspberry Pi 4</p>
+            <p>R$750,00</p>
+            <a href="">Clique Aqui!</a>
+        </div>
+        <div class="produto">
+            <img src="../static/img/pic16f628.jpg">
+            <p>pic16f628.jpg</p>
+            <p>R$23,00</p>
+            <a href="">Clique Aqui!</a>
+        </div>
+        <div class="produto">
+            <img src="../static/img/protoboard.jpg">"
+            <p>Protoboard n sei quantos pinos</p>
+            <p>R$10</p>
+            <a href="">Clique Aqui!</a>
+        </div>
+      </div>      
+</main>
+{% endblock %}
