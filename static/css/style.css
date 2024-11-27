@@ -1,3 +1,27 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+  
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 0;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -11,9 +35,9 @@
     flex-direction: column;
 }
 
-img {
-    width: 150px;
-    height: 150px;
+.item_produto {
+    width: 200px;
+    height: 200px;
 }
 
 a {
@@ -23,4 +47,89 @@ a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.arduino_main{
+    width: 300px;
+    height: 300px;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+  
+.search-bar {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+  
+.search-btn {
+    padding: 10px 15px;
+    border: none;
+    background-color: white;
+    color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.search-btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+  
+main {
+    margin: 20px 0;
+}
+  
+.product {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.product-image img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+  
+.product-details {
+    flex: 1;
+}
+  
+.product-title {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+  
+.product-price {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+  
+.product-description {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+  
+.buy-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+  
+.buy-btn:hover {
+    background-color: #218838;
 }
