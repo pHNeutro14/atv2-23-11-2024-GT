@@ -9,3 +9,15 @@ def index():
 @app.route('/arduino')
 def arduino():
     return render_template('arduino.html')
+
+@app.route('/protoboard')
+def protoboard():
+    return render_template('protoboard.html')
+
+@app.route('/pic16f628')
+def pic16f628():
+    return render_template('pic16f628.html')
+
+@app.route('/raspberry')
+def rasperry():
+    return render_template('raspberry.html')
