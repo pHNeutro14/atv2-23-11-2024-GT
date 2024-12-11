@@ -19,5 +19,5 @@ def pic16f628():
     return render_template('pic16f628.html')
 
 @app.route('/raspberry')
-def rasperry():
+def raspberry():
     return render_template('raspberry.html')
